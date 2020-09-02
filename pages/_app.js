@@ -17,9 +17,10 @@ export default function MyApp(props) {
 
     if (cookie === "" || cookie === null) {
       router.push({ pathname: "/" });
-    } else {
-      router.push({ pathname: "/dashboard" });
     }
+    //  else {
+    //   router.push({ pathname: "/dashboard" });
+    // }
 
     console.log("dans apppp");
 
