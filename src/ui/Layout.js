@@ -20,7 +20,7 @@ export default function Layout({ children }) {
     console.log(url);
     console.log("change route");
 
-    if (url === "/" || url === "/logout") {
+    if (url === "/") {
       setShowHeader(false);
     } else {
       setShowHeader(true);
