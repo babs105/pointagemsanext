@@ -372,8 +372,8 @@ export default function EnhancedTable(props) {
             />
             <TableBody>
               {stableSort(
-                props.rows.filter((row) => row.search),
-                getComparator(order, orderBy)
+                props.rows.filter((row) => row.search)
+                // getComparator(order, orderBy)
               )
                 .slice(
                   props.page * rowsPerPage,
