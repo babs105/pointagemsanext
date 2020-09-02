@@ -364,8 +364,8 @@ export default function EnhancedTable(props) {
             <EnhancedTableHead
               classes={classes}
               numSelected={selected.length}
-              order={order}
-              orderBy={orderBy}
+              // order={order}
+              // orderBy={orderBy}
               onSelectAllClick={handleSelectAllClick}
               // onRequestSort={handleRequestSort}
               rowCount={props.rows.length}
