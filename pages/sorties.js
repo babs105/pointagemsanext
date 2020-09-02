@@ -20,7 +20,7 @@ import SortieEdit from "../src/ui/Sortie/SortieEditForm";
 // const useStyles = makeStyles((theme) => ({
 
 // }));
-const SortieListComponent = () => {
+const Sorties = () => {
   const theme = useTheme();
   // const matchesMD = useMediaQuery(theme.breakpoints.down("md"));
   const matchesSM = useMediaQuery(theme.breakpoints.down("sm"));
@@ -380,4 +380,4 @@ const SortieListComponent = () => {
     </div>
   );
 };
-export default SortieListComponent;
+export default Sorties;

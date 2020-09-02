@@ -29,7 +29,7 @@ import AgentEdit from "../src/ui/Personnel/PersonnelEditForm";
 //   },
 // }));
 
-const PersonnelListComponent = (props) => {
+const Personnel = (props) => {
   // const classes = useStyles();
   // let i = 0;
   const theme = useTheme();
@@ -369,4 +369,4 @@ const PersonnelListComponent = (props) => {
     </div>
   );
 };
-export default PersonnelListComponent;
+export default Personnel;

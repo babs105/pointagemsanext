@@ -31,7 +31,7 @@ import EntreeEdit from "../src/ui/Entree/EntreeEditForm";
 //   },
 // }));
 
-const EntreeListComponent = (props) => {
+const Entrees = (props) => {
   // const classes = useStyles();
   // let i = 0;
   const theme = useTheme();
@@ -394,4 +394,4 @@ const EntreeListComponent = (props) => {
     </div>
   );
 };
-export default EntreeListComponent;
+export default Entrees;

@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const UserListComponent = () => {
+const Users = () => {
   const classes = useStyles();
 
   const theme = useTheme();
@@ -446,4 +446,4 @@ const UserListComponent = () => {
   );
 };
 
-export default UserListComponent;
+export default Users;
